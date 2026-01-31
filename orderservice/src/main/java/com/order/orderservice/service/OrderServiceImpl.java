@@ -1,18 +1,18 @@
-package service;
+package com.order.orderservice.service;
 
-import dto.OrderRequest;
-import dto.OrderResponse;
-import entity.Order;
-import entity.Product;
-import exception.InsufficientStockException;
-import exception.ResourceNotFoundException;
+import com.order.orderservice.dto.OrderRequest;
+import com.order.orderservice.dto.OrderResponse;
+import com.order.orderservice.entity.Order;
+import com.order.orderservice.entity.Product;
+import com.order.orderservice.exception.InsufficientStockException;
+import com.order.orderservice.exception.ResourceNotFoundException;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
-import repository.OrderRepository;
-import repository.ProductRepository;
+import com.order.orderservice.repository.OrderRepository;
+import com.order.orderservice.repository.ProductRepository;
 
 import java.math.BigDecimal;
 

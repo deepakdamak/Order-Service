@@ -1,4 +1,4 @@
-package config;
+package com.order.orderservice.config;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

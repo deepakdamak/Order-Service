@@ -1,6 +1,6 @@
-package repository;
+package com.order.orderservice.repository;
 
-import entity.Order;
+import com.order.orderservice.entity.Order;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

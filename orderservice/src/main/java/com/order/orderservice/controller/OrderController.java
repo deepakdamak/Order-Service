@@ -1,15 +1,15 @@
-package controller;
+package com.order.orderservice.controller;
 
-import dto.OrderRequest;
-import dto.OrderResponse;
-import entity.Order;
+import com.order.orderservice.dto.OrderRequest;
+import com.order.orderservice.dto.OrderResponse;
+import com.order.orderservice.entity.Order;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
-import service.OrderService;
+import com.order.orderservice.service.OrderService;
 
 @RestController
 @RequestMapping("/api/orders")

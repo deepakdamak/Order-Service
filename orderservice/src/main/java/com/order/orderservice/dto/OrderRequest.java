@@ -1,4 +1,4 @@
-package dto;
+package com.order.orderservice.dto;
 
 import lombok.Getter;
 import lombok.Setter;

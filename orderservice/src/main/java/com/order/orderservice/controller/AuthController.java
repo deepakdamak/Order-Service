@@ -1,6 +1,6 @@
-package controller;
+package com.order.orderservice.controller;
 
-import config.JwtUtil;
+import com.order.orderservice.config.JwtUtil;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

@@ -1,8 +1,8 @@
-package service;
+package com.order.orderservice.service;
 
-import dto.OrderRequest;
-import dto.OrderResponse;
-import entity.Order;
+import com.order.orderservice.dto.OrderRequest;
+import com.order.orderservice.dto.OrderResponse;
+import com.order.orderservice.entity.Order;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
